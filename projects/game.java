@@ -1,3 +1,4 @@
+package projects;
 import java.util.*;
 public class game {
     public static void main(String[] args) {

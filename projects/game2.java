@@ -1,3 +1,4 @@
+package projects;
 import java.util.*;
 public class game2 {
     int randomNo;
