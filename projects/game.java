@@ -6,10 +6,34 @@ public class game {
         System.out.println("enter a number: ");
         int num=sc.nextInt();
 
+
+        if(num == 0){
+            System.out.println("your choice: RocK");
+        }
+        else if(num== 1){
+            System.out.println("your choice: PapeR");
+        }
+        else{
+            System.out.println("your choice: ScissoR");
+        }
+
+
+
         Random ran =new Random();
         int compinput= ran.nextInt(3);
-        System.out.println("computer entered "+compinput);
         
+
+        if(compinput == 0){
+            System.out.println("computers choice: RocK");
+        }
+        else if(compinput == 1){
+            System.out.println("computers choice: PapeR");
+        }
+        else{
+            System.out.println("computers choice: ScissoR");
+        }
+
+
         if(num ==compinput){
             System.out.println("Game Draw!");
         }
